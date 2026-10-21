@@ -1,0 +1,22 @@
+# ---- REA 工作区忽略 ----
+# 本地工具链（1.3G：Blender / APK 工具等），属下载物，不入库
+toolchain/
+
+# 运行时环境与缓存（.runtime 516M / .cache 91M / .tools 43M）
+.runtime/
+.cache/
+.tools/
+.workbuddy/
+
+# Python 缓存
+__pycache__/
+*.pyc
+.venv/
+
+# 采样与临时产物（按需放开）
+samples/*.tmp
+
+# 系统
+.DS_Store
+Thumbs.db
+*.log

@@ -1,0 +1,8 @@
+{
+  "name": "rea-smoke-app",
+  "version": "1.0.0",
+  "description": "Self-built minimal Electron sample for REA smoke test",
+  "main": "main.js",
+  "license": "MIT",
+  "private": true
+}
